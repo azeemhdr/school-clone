@@ -775,11 +775,27 @@
             background-color: #ecf4f8ec;
             background-image: none;
             height: auto;
+            padding: 5px 0px;
+        }
+        
+        .tmline {
+            position: relative;
         }
         
         .timeline {
             width: 100%;
             padding: 0px 20px;
+            &:before {
+                content: '';
+                position: absolute;
+                top: 0px;
+                left: 50%;
+                bottom: 0px;
+                transform: translateX(-50%);
+                width: 4px;
+                background-color: #fa9db7;
+                /* z-index: 1; */
+            }
         }
         
         .tl-1,
