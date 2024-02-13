@@ -782,6 +782,22 @@
             position: relative;
         }
         
+        .start-tl,
+        .end-tl {
+            position: absolute;
+            width: 14px;
+            height: 14px;
+            background-color: #fa9db7;
+            transform: rotateZ(45deg);
+            top: 0px;
+            left: 563px;
+            /* z-index: 4; */
+        }
+        
+        .end-tl {
+            top: 588px;
+        }
+        
         .timeline {
             width: 100%;
             padding: 0px 20px;
