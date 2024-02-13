@@ -632,13 +632,13 @@
             background-color: #fa9db79a;
             inset: 0px 0px 3px 0px;
             border-radius: 32px;
-            /* background-image: url(../images/animals2.png);  image kyu show nhi ho rhi hai */
+            /* background-image: url(../images/animals2.png);  image kyu show nhi ho rhi hai; */
             background-size: 80px 80px;
             background-repeat: no-repeat;
-            display: flex;
+            /* display: flex; */
             /* margin: auto; */
-            justify-content: center;
-            align-items: center;
+            /* justify-content: center; */
+            /* align-items: center; */
             /* z-index: 5; */
         }
         
@@ -796,7 +796,7 @@
         }
         
         .end-tl {
-            top: 977px;
+            top: 985px;
             /* bottom: 10px; */
         }
         
@@ -804,7 +804,7 @@
             position: relative;
             width: 28px;
             height: 28px;
-            top: 180px;
+            top: 207px;
             left: 536px;
             border-radius: 50%;
             border: 3px solid #fa9db7;
@@ -822,15 +822,15 @@
         }
         
         .tlpoint-2 {
-            top: 414px;
+            top: 395px;
         }
         
         .tlpoint-3 {
-            top: 500px;
+            top: 588px;
         }
         
         .tlpoint-4 {
-            top: 585px;
+            top: 775px;
         }
         
         .timeline {
@@ -847,6 +847,33 @@
                 background-color: #fa9db7;
                 /* z-index: 1; */
             }
+        }
+        
+        .tl-line-img1,
+        .tl-line-img2,
+        .tl-line-img3,
+        .tl-line-img4 {
+            position: absolute;
+            width: 39px;
+            height: 3px;
+            background-color: #fa9db7;
+            top: 248px;
+            left: 583px;
+        }
+        
+        .tl-line-img2,
+        .tl-line-img4 {
+            top: 463px;
+            left: 494px;
+            width: 64px;
+        }
+        
+        .tl-line-img3 {
+            top: 684px;
+        }
+        
+        .tl-line-img4 {
+            top: 901px;
         }
         
         .tl-1 {
@@ -870,29 +897,58 @@
             /* justify-content: flex-start; */
         }
         
-        .tl-content h2 {
+        .tl-content-lt h2,
+        .tl-content-rt h2 {
             text-align: end;
             color: #45b3df;
+            font-weight: 900;
+            line-height: 1.5;
         }
         
-        .tl-content .tl-text {
+        .tl-content-rt h2 {
+            text-align: start;
+        }
+        
+        .tl-content-lt .tl-text,
+        .tl-content-rt .tl-text {
             color: #12265a;
             text-transform: capitalize;
             font-weight: 900;
             font-size: 1.75rem;
         }
         
-        .tl-content p {
+        .tl-content-lt p {
             text-align: end;
+            color: gray;
+            font-size: 18px;
+            word-spacing: 3;
+            line-height: 2;
+        }
+        
+        .tl-content-rt p {
+            text-align: start;
+            font-size: 18px;
+            color: gray;
+            line-height: 2;
+            word-spacing: 3;
         }
         
         .tl-img {
             width: 220px;
+            /* border: 1px solid #fa9db7; */
         }
         
         .tl-img img {
-            width: 194px;
+            width: 196px;
             border-radius: 50%;
+            border: 2px solid #fa9db7;
+            transition: 500ms ease-in-out;
+        }
+        
+        .timeline:hover img {
+            padding: 10px;
+            border: 2px dashed #fa9db7;
+            /* transition-delay: 1s ease-in-out; */
         }
         
         .nine {
