@@ -796,7 +796,7 @@
         }
         
         .end-tl {
-            top: 714px;
+            top: 1061px;
             /* bottom: 10px; */
         }
         
@@ -811,13 +811,13 @@
             background-color: #f2f2f2;
             &::before {
                 content: " ";
-                width: 14px;
-                height: 14px;
+                width: 12px;
+                height: 12px;
                 background-color: #fa9db7;
                 position: absolute;
                 border-radius: 50%;
-                left: 4px;
-                top: 4px;
+                left: 5px;
+                top: 5px;
             }
         }
         
@@ -857,6 +857,15 @@
             width: 100%;
             justify-content: space-around;
             padding: 20px;
+        }
+        
+        .tl-img {
+            width: 220px;
+        }
+        
+        .tl-img img {
+            width: 194px;
+            border-radius: 50%;
         }
         
         .nine {
