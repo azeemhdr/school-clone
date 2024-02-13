@@ -784,24 +784,59 @@
         
         .start-tl,
         .end-tl {
-            position: absolute;
+            position: relative;
             width: 14px;
             height: 14px;
             background-color: #fa9db7;
             transform: rotateZ(45deg);
             top: 0px;
-            left: 563px;
+            left: 543px;
+            /* left: 50%; */
             /* z-index: 4; */
         }
         
         .end-tl {
-            top: 588px;
+            top: 714px;
+            /* bottom: 10px; */
+        }
+        
+        .point-tl {
+            position: relative;
+            width: 28px;
+            height: 28px;
+            top: 180px;
+            left: 536px;
+            border-radius: 50%;
+            border: 3px solid #fa9db7;
+            background-color: #f2f2f2;
+            &::before {
+                content: " ";
+                width: 14px;
+                height: 14px;
+                background-color: #fa9db7;
+                position: absolute;
+                border-radius: 50%;
+                left: 4px;
+                top: 4px;
+            }
+        }
+        
+        .tlpoint-2 {
+            top: 414px;
+        }
+        
+        .tlpoint-3 {
+            top: 500px;
+        }
+        
+        .tlpoint-4 {
+            top: 585px;
         }
         
         .timeline {
             width: 100%;
             padding: 0px 20px;
-            &:before {
+            &::before {
                 content: '';
                 position: absolute;
                 top: 0px;
