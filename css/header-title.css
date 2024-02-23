@@ -328,3 +328,54 @@ border-radius: 20px;
     background-image: url('../images/baby1.jpg');
     padding: 150px 0px;
 }
+
+.row {
+    padding: 0px 20px;
+    width: 100%;
+    /* display: flex; */
+}
+
+.heading .nanny-agency {
+    margin-bottom: 40px;
+}
+
+.heading h2 span {
+    background-color: #fa9db7;
+    display: inline-block;
+    border-radius: 15px;
+    font-size: 41px;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    color: white;
+    font-weight: 800;
+}
+
+.heading h2 .nanny {
+    background-color: #79c8e8;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.contact a i {
+    font-size: 60px;
+    color: #fa9db7;
+}
+
+.contact h4 {
+    font-size: 28px;
+    color: rgb(9, 9, 71);
+    transition: 500ms;
+}
+
+.contact h4:hover {
+    color: #fa9db7;
+}
