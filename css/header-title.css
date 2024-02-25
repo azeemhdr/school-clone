@@ -379,3 +379,12 @@ border-radius: 20px;
 .contact h4:hover {
     color: #fa9db7;
 }
+
+.row-wrap {
+    display: flex;
+}
+
+.container .col-left,
+.col-right {
+    width: 50%;
+}
