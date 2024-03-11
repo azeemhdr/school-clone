@@ -20,6 +20,7 @@ body {
 
 a {
     text-decoration: none;
+    display: inline-flex;
 }
 
 header {
@@ -230,12 +231,13 @@ h1 {
 .read-more a {
     text-transform: capitalize;
     /* border: 1px solid #ffc85b; */
-    padding: 18px 40px;
-    border-radius: 28px;
+    padding: 16px 44px;
+    border-radius: 32px;
     background-color: #ffc85b;
     color: #fff;
-    font-weight: bold;
+    font-weight: 900;
     transition: 500ms;
+    font-size: 18px;
 }
 
 .read-more a:hover {
@@ -380,11 +382,74 @@ border-radius: 20px;
     color: #fa9db7;
 }
 
+.four {
+    background-color: #233668;
+    padding: 120px 0px 150px;
+    position: relative;
+}
+
 .row-wrap {
+    justify-content: center;
+    align-items: center;
     display: flex;
+    gap: 10px;
 }
 
 .container .col-left,
 .col-right {
     width: 50%;
+    padding: 0px 15px;
+}
+
+.col-left,
+.col-right {
+    width: 50%;
+}
+
+.col-left h3 {
+    margin-bottom: 8px;
+}
+
+.col-left h3 span {
+    background-color: #45b3df;
+    color: white;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.col-left h2 {
+    font-size: 72px;
+    font-weight: 701;
+    color: white;
+    line-height: 1.3;
+    margin-bottom: 1.6px;
+    text-transform: capitalize;
+}
+
+.sec4-link a {
+    margin-top: 28px;
+}
+
+.col-right {
+    text-align: center;
+}
+
+.col-right img {
+    width: 550px;
+    object-fit: contain;
+    border-radius: 32px;
+}
+
+
+/* image going out of the div and the object fit property doesn't work */
+
+.svg {
+    background-image: url('../images/wave.svg.svg');
+    background-size: cover;
+    background-position: 50% 70%;
+    width: 100%;
+    height: 100px;
+    /* transform: rotateX(180deg); */
+    position: absolute;
+    bottom: 0;
 }
