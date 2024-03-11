@@ -3,7 +3,7 @@
                          :root {
                             --primary: #f2f2f2;
                             --secondary: #fa9db7;
-                            --font: 'Nunito ', sans-serif;
+                            font-family: 'Nunito ', sans-serif;
                             --font2: 'Mulish', sans-serif;
                         }
                         
@@ -410,6 +410,13 @@
                         .card-read a span {
                             font-size: 32px;
                             padding-left: 15px;
+                            display: inline-block;
+                            transition: 500ms;
+                            perspective: 2000px;
+                        }
+                        
+                        .card-read:hover a span {
+                            transform: rotateZ(-180deg);
                         }
                         
                         .four {
@@ -869,7 +876,10 @@
                             top: 901px;
                         }
                         
-                        .tl-1 {
+                        .tl-1,
+                        .tl-2,
+                        .tl-3,
+                        .tl-4 {
                             display: flex;
                             width: 100%;
                             /* justify-content: space-between; */
@@ -938,7 +948,10 @@
                             transition: 500ms ease-in-out;
                         }
                         
-                        .timeline:hover img {
+                        .tl-1:hover img,
+                        .tl-2:hover img,
+                        .tl-3:hover img,
+                        .tl-4:hover img {
                             padding: 10px;
                             border: 2px dashed #fa9db7;
                             /* transition-delay: 1s ease-in-out; */
