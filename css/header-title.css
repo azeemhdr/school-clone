@@ -169,7 +169,7 @@ h1 {
     border: 2px dashed var(--primary);
     border-radius: 50%;
     padding-left: 7px;
-    padding-top: 2px;
+    padding-top: 7px;
     background-color: var(--secondary);
 }
 
@@ -482,8 +482,102 @@ border-radius: 20px;
     background-position: bottom;
     background-repeat: no-repeat;
     padding: 0px 10px;
+    color: #12265a;
 }
 
 .sec5-course h2 .span-programs {
     background-image: linear-gradient(to top, rgba(255, 200, 91, 0.5), rgba(255, 200, 91, 0.5));
+}
+
+.six {
+    padding: 45px 0px;
+}
+
+.sec6-row {
+    text-align: center;
+    width: 100%;
+}
+
+.sec6-row p {
+    color: #70747fd9;
+    margin-top: 32px;
+    line-height: 2;
+    font-size: 18px;
+}
+
+.history-link {
+    display: flex;
+    list-style: none;
+    position: relative;
+}
+
+.history-link li a {
+    display: block;
+    padding: 10px 15px;
+    color: #12265a;
+    transition: 500ms;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.before-point::before {
+    content: '';
+    position: absolute;
+    background-color: #45b3df;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    inset: 16px 0px 0px 112px;
+}
+
+.history-link li a:hover {
+    color: #fa9db7;
+}
+
+.history h2 {
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #12265a;
+}
+
+.eight {
+    padding: 90px 0px;
+}
+
+.cont-eight {
+    min-height: auto;
+}
+
+.sec8-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.photo-gallery h2 span {
+    background-image: linear-gradient(to top, rgba(250, 157, 183, 0.5), rgba(250, 157, 183, 0.5));
+    background-size: 100% 25px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding: 0px 10px;
+    font-size: 45px;
+    text-transform: capitalize;
+    color: #12265a;
+}
+
+.nine {
+    padding: 90px 0px 60px;
+}
+
+.sec9-row {
+    text-align: center;
+}
+
+.sec9-blocks {
+    width: 100%;
+}
+
+.sec9-blocks h2 span {
+    font-size: 45px;
 }
