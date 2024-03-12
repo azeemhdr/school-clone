@@ -453,3 +453,37 @@ border-radius: 20px;
     position: absolute;
     bottom: 0;
 }
+
+.five {
+    padding: 75px 0px;
+    background-color: #fff;
+}
+
+.row-course {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sec5-course {
+    width: 665px;
+    padding: 0px 10px;
+}
+
+.sec5-course h2 {
+    text-transform: capitalize;
+    font-size: 44px;
+}
+
+.sec5-course h2 span {
+    background-image: linear-gradient(to top, rgba(250, 157, 183, 0.5), rgba(250, 157, 183, 0.5));
+    background-size: 100% 25px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding: 0px 10px;
+}
+
+.sec5-course h2 .span-programs {
+    background-image: linear-gradient(to top, rgba(255, 200, 91, 0.5), rgba(255, 200, 91, 0.5));
+}
