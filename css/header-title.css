@@ -581,3 +581,50 @@ border-radius: 20px;
 .sec9-blocks h2 span {
     font-size: 45px;
 }
+
+.row-sec10 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.sec10-col {
+    width: 33.333%;
+}
+
+.live-demo img {
+    width: 362px;
+    border-radius: 32px;
+}
+
+.live-demo-h2 h2 a {
+    font-size: 29px;
+    color: #12265a;
+    padding-top: 32px;
+    transition: 500ms;
+    /* text-transform: capitalize; */
+}
+
+.live-demo-h2 h2 a:hover {
+    color: #fa9db7;
+}
+
+.live-demo-link {
+    padding-top: 10px;
+}
+
+.live-demo-link:hover a span i {
+    transform: rotateZ(180deg);
+}
+
+.live-demo-link a {
+    color: #fa9db7;
+    font-size: 18px;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.live-demo-link a span i {
+    font-size: 32px;
+    transition: 300ms;
+}
