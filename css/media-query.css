@@ -1,0 +1,17 @@
+@media screen and (min-width:994px) and (max-width: 1140px) {
+    header .container {
+        padding: 0px 16px;
+    }
+    section .container {
+        padding: 0px 16px;
+    }
+    .container nav {
+        padding: 0px 0px;
+    }
+    .logo {
+        width: 18%;
+    }
+    .logo img {
+        width: 100px
+    }
+}
